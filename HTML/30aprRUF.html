@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <td>Student Id</td>
+            <td>Student Name</td>
+            <td>Gender</td>
+            <td>Age</td>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1111</td>
+            <td>Ram</td>
+            <td rowspan="4">Male</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>1112</td>
+            <td>Shyam</td>
+            <td rowspan="3">19</td>
+        </tr>
+        <tr>
+            <td>1113</td>
+            <td>Krishna</td>
+        </tr>
+        <tr>
+            <td>1114</td>
+            <td>Balram</td>
+        </tr>
+    </tbody>
+    </table>
+    <table border="2">
+        <thead>
+            <td>Country</td>
+            <td>State</td>
+            <td>City</td>
+            <td>Street</td>
+            <td>Male</td>
+            <td>Female</td>
+            <td>Others</td>
+        </thead>
+        <tbody>
+            <tr>
+            <td rowspan="8">1</td>
+            <td rowspan="4">Kerala</td>
+            <td>Cochin</td>
+            <td>New Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>6</td>
+        </tr>
+            <tr>
+              <td>Cochin</td>
+              <td>Guru Street</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+               <td rowspan="2" >Trivandrum</td>
+               <td>Guru Street</td>
+               <td>500</td>
+               <td>600</td>
+               <td>10</td>
+            </tr>
+            <tr>
+                <td>TVK Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Maharashtra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krishna Street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Main Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Surath</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Billa Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan=2>Alaska</td>
+                <td rowspan="2">AKA Central</td>
+                <td>New Street</td>
+                <td>200</td>
+                <td>210</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Cross Street</td>
+                <td>100</td>
+                <td>1050</td>
+                <td>10</td>
+            </tr></tbody></table>
+            <input type="submit" value="CLICK here"><br>
+            <input type="checkbox" ><br>
+            <input type="date"><br>
+            <form >
+                <fieldset>
+                <label for="email">Enter Email Id: </label>
+                <input type="text" id="email">
+                <br><br>
+                <label for="password">Enter Password:</label>
+                <input type="text" id="password">
+                <br><br>
+                <input type="submit" value="Click here">
+            </fieldset>
+            </form>
+            <form action="">
+                <fieldset>
+                    <label for="selector1">Choose Your Dish :</label>
+                    <select name="dishes" id="selector1">
+                        <option value="maggi">Maggi</option>
+                        <option value="noodles">Noodles</option>
+                        <option value="chowmein">Chowmein</option>
+                    </select>
+                </fieldset>
+            </form>
+            <label for="txtarea">NOTES :</label><br>
+            <textarea name="txtarea" id="txtarea" cols="30" rows="6"></textarea><br>
+            <input type="file">
+            <input type="image" alt="Click Here " height="30px" width="30px">
+</body>
+</html>
